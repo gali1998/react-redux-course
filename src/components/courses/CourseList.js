@@ -19,7 +19,7 @@ const CourseList = ({ courses }) => (
             <td>
               <a
                 className="btn btn-light"
-                href={"http://pluralsight.com/courses/" + course.slug}
+                href={"http://pluralsight.com/course/" + course.slug}
               >
                 Watch
               </a>
